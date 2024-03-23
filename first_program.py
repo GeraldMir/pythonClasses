@@ -1,2 +1,3 @@
 a,b = input(), input()
-if a
+if a = b:
+print(a)
