@@ -73,7 +73,15 @@
 # else: print('NO')
 
 # Задача 7
+# a1,a2,b1,b2 = int(input()),int(input()),int(input()),int(input())
+# if (abs(a1-b1) == 2 and abs(a2-b2)==1) or (abs(a1-b1)==1 and abs(a2-b2)==2):
+#     print('YES')
+# else: print('NO')
+
+# Задача 8
 a1,a2,b1,b2 = int(input()),int(input()),int(input()),int(input())
-if (abs(a1-b1) == 2 and abs(a2-b2)==1) or (abs(a1-b1)==1 and abs(a2-b2)==2):
+if abs(a1-b1)==abs(a2-b2):
+    print('YES')
+elif a1==b1 or a2 == b2:
     print('YES')
 else: print('NO')
