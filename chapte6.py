@@ -15,5 +15,9 @@
 # print((5/9)*(f-32))
 
 # task 5
-n=float(input())
-print(n*10.5 if 0<=n<=2 else 4*(n-2)+21)
+# n=float(input())
+# print(n*10.5 if 0<=n<=2 else 4*(n-2)+21)
+
+# task 6
+# a = float(input())
+# print(int(((a-int(a))*10)))
