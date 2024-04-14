@@ -21,3 +21,12 @@
 # task 6
 # a = float(input())
 # print(int(((a-int(a))*10)))
+
+# task 7
+# a, b, c, d, e = int(input()),int(input()),int(input()),int(input()),int(input())
+# print('Наименьшее число = ', min(a, b, c, d, e),'\nНаибольшее число = ', max(a, b, c, d, e), sep ='')
+
+# task 8
+a,b,c=int(input()),int(input()),int(input())
+sum = a+b+c
+print( max(a,b,c),'\n', (sum-max(a,b,c)-min(a,b,c)),'\n', min(a,b,c), sep='')
