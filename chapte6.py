@@ -32,9 +32,17 @@
 # print( max(a,b,c),'\n', (sum-max(a,b,c)-min(a,b,c)),'\n', min(a,b,c), sep='')
 
 # task 9
-a = int(input())
-frst = a//100
-sec = a//10%10
-lst = a%10
-# print('Число интересное' if (max(frst, sec, lst)-min(frst, sec, lst))== (frst+sec+lst-max(frst, sec, lst)-min(frst, sec, lst)) else 'Число неинтересное')
-print('Число интересное' if (2*max(frst, sec, lst))== (frst+sec+lst) else 'Число неинтересное')
+# a = int(input())
+# frst = a//100
+# sec = a//10%10
+# lst = a%10
+# # print('Число интересное' if (max(frst, sec, lst)-min(frst, sec, lst))== (frst+sec+lst-max(frst, sec, lst)-min(frst, sec, lst)) else 'Число неинтересное')
+# print('Число интересное' if (2*max(frst, sec, lst))== (frst+sec+lst) else 'Число неинтересное')
+
+# task 10
+# a, b, c, d, e = float(input()),float(input()),float(input()),float(input()),float(input())
+# print(abs(a)+abs(b)+abs(c)+abs(d)+abs(e))
+
+# task 11
+a, b, c, d= int(input()),int(input()),int(input()),int(input())
+print(abs(a-c)+abs(b-d))
