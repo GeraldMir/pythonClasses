@@ -27,6 +27,14 @@
 # print('Наименьшее число = ', min(a, b, c, d, e),'\nНаибольшее число = ', max(a, b, c, d, e), sep ='')
 
 # task 8
-a,b,c=int(input()),int(input()),int(input())
-sum = a+b+c
-print( max(a,b,c),'\n', (sum-max(a,b,c)-min(a,b,c)),'\n', min(a,b,c), sep='')
+# a,b,c=int(input()),int(input()),int(input())
+# sum = a+b+c
+# print( max(a,b,c),'\n', (sum-max(a,b,c)-min(a,b,c)),'\n', min(a,b,c), sep='')
+
+# task 9
+a = int(input())
+frst = a//100
+sec = a//10%10
+lst = a%10
+# print('Число интересное' if (max(frst, sec, lst)-min(frst, sec, lst))== (frst+sec+lst-max(frst, sec, lst)-min(frst, sec, lst)) else 'Число неинтересное')
+print('Число интересное' if (2*max(frst, sec, lst))== (frst+sec+lst) else 'Число неинтересное')
