@@ -81,10 +81,25 @@
 # print(min, max, sep='\n')
 
 # task 16
-a, b, c = input(),input(), input()
-lenmax= max(len(a), len(b), len(c))
-lenmin = min(len(a), len(b), len(c))
-lenav= len(a+b+c)-lenmax-lenmin
-if lenav == (lenmin+lenmax)/2:
+# a, b, c = input(),input(), input()
+# lenmax= max(len(a), len(b), len(c))
+# lenmin = min(len(a), len(b), len(c))
+# lenav= len(a+b+c)-lenmax-lenmin
+# if lenav == (lenmin+lenmax)/2:
+#     print('YES')
+# else: print('NO')
+
+# task 17
+# print('YES' if 'синий' in input() else 'NO')
+
+# task 18
+# a = input()
+# if ('суббота' in a) or ('воскресенье' in a):
+#     print('YES')
+# else: print('NO')
+
+# task 19
+a = input()
+if ('@' in a) and ('.' in a):
     print('YES')
 else: print('NO')
