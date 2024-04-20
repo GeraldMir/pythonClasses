@@ -48,6 +48,34 @@
 # print(abs(a-c)+abs(b-d))
 
 # task 12
-a= '"Python is a great language!", said Fred. '
-b= '"I don\'t ever remember having this much fun before."'
-print(a+b)
+# a= '"Python is a great language!", said Fred. '
+# b= '"I don\'t ever remember having this much fun before."'
+# print(a+b)
+
+# task 13
+# print(f'Hello {input()} {input()}! You have just delved into Python')
+
+# task 14
+# a=input()
+# print(f'Футбольная команда {a} имеет длину {len(a)} символов')
+
+# task 15
+a, b, c = input(),input(), input()
+lenmax= max(len(a), len(b), len(c))
+lenmin = min(len(a), len(b), len(c))
+if lenmax==len(a):
+    max=a
+    if lenmin == len(b):
+        min = b
+    else: min = c
+elif lenmax == len(b):
+    max=b
+    if lenmin == len(a):
+        min = a
+    else: min = c
+elif lenmax == len(c):
+    max=c
+    if lenmin == len(a):
+        min = a
+    else: min = b
+print(min, max, sep='\n')
