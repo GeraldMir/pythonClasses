@@ -44,5 +44,10 @@
 # print(abs(a)+abs(b)+abs(c)+abs(d)+abs(e))
 
 # task 11
-a, b, c, d= int(input()),int(input()),int(input()),int(input())
-print(abs(a-c)+abs(b-d))
+# a, b, c, d= int(input()),int(input()),int(input()),int(input())
+# print(abs(a-c)+abs(b-d))
+
+# task 12
+a= '"Python is a great language!", said Fred. '
+b= '"I don\'t ever remember having this much fun before."'
+print(a+b)
