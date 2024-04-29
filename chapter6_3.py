@@ -13,7 +13,12 @@
 #       sep='\n')
 
 # task 4
+# x = float(input())
+# import math
+# r = math.radians(x)
+# print(math.sin(r)+math.cos(r)+math.pow(math.tan(r),2))
+
+# task 5
 x = float(input())
 import math
-r = math.radians(x)
-print(math.sin(r)+math.cos(r)+math.pow(math.tan(r),2))
+print(math.floor(x)+math.ceil(x))
