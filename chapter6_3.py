@@ -24,18 +24,22 @@
 # print(math.floor(x)+math.ceil(x))
 
 # task 6
-# task 5
-a,b,c = float(input()),float(input()),float(input())
+# a,b,c = float(input()),float(input()),float(input())
+# import math
+# disk = math.pow(b,2)-4*a*c
+# if disk == 0:
+#     print(-b/(2*a))
+# elif disk>0:
+#     x1=(-1*b+math.sqrt(disk))/(2*a)
+#     x2=(-1*b-math.sqrt(disk))/(2*a)
+#     if x1<x2:
+#         print(x1, x2, sep='\n')
+#     else:
+#         print(x2, x1, sep='\n')
+# elif disk<0:
+#     print('Нет корней')
+
+# task 7
+n, a = int(input()),float(input())
 import math
-disk = math.pow(b,2)-4*a*c
-if disk == 0:
-    print(-b/(2*a))
-elif disk>0:
-    x1=(-1*b+math.sqrt(disk))/(2*a)
-    x2=(-1*b-math.sqrt(disk))/(2*a)
-    if x1<x2:
-        print(x1, x2, sep='\n')
-    else:
-        print(x2, x1, sep='\n')
-elif disk<0:
-    print('Нет корней')
+print(n*math.pow(a,2)/(4*math.tan(math.pi/n)))
