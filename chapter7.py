@@ -19,9 +19,33 @@
 # print(math.factorial(int(input())))
 
 # task 6
-total = 1
-for i in range(10):
-    n = int(input())
-    if n != 0:
-        total *= n
-print(total)
+# total = 1
+# for i in range(10):
+#     n = int(input())
+#     if n != 0:
+#         total *= n
+# print(total)
+
+# task 7
+# n, summ = int(input()), 0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         summ += i
+# print(summ) 
+
+# task 8
+# n, summ = int(input()), 0
+# for i in range(n+1):
+#     summ += ((-1)**(i+1))*i
+# print(summ)
+
+# task 9
+n, big1, big2 = int(input()), 0, 0
+for i in range(1,n+1):
+    num = int(input())
+    if num > big1:
+            big2 = big1
+            big1 = num
+    if num > big2 and num < big1:
+        big2 = num
+print(big1,big2,sep='\n')
