@@ -40,12 +40,29 @@
 # print(summ)
 
 # task 9
-n, big1, big2 = int(input()), 0, 0
-for i in range(1,n+1):
-    num = int(input())
-    if num > big1:
-            big2 = big1
-            big1 = num
-    if num > big2 and num < big1:
-        big2 = num
-print(big1,big2,sep='\n')
+# n, big1, big2 = int(input()), 0, 0
+# for i in range(1,n+1):
+#     num = int(input())
+#     if num > big1:
+#             big2 = big1
+#             big1 = num
+#     if num > big2 and num < big1:
+#         big2 = num
+# print(big1,big2,sep='\n')
+
+# task 10
+# flag = True
+# for i in range(10):
+#     n = int(input())
+#     if n%2 != 0:
+#         flag = False
+# print('YES' if flag else 'NO')
+
+# task 11
+# n, n0, n1, n2 = int(input()),0,1,0
+# fib = str(n1)+' '
+# for i in range(n-1):
+#     n2=n0+n1
+#     n0, n1 = n1, n2
+#     fib+= str(n2)+ ' '
+# print(fib)
