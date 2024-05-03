@@ -40,6 +40,10 @@
 #     print('Нет корней')
 
 # task 7
-n, a = int(input()),float(input())
-import math
-print(n*math.pow(a,2)/(4*math.tan(math.pi/n)))
+# n, a = int(input()),float(input())
+# import math
+# print(n*math.pow(a,2)/(4*math.tan(math.pi/n)))
+
+# n = int(input())
+# for i in range(1,11):
+#     print(f'{n} x {i} = {n*i}')
