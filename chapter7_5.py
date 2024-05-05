@@ -53,14 +53,27 @@
 # if flag == True: print('YES')
 
 # Дано натуральное число. Напишите программу, которая определяет, является ли последовательность его цифр при просмотре справа налево упорядоченной по неубыванию.
+# n= int(input())
+# flag = 'YES'
+# num = n%10
+# while n != 0:
+#     if n%10 >= num:
+#         num = n%10
+#         n //= 10
+#     else:
+#         flag = 'NO'
+#         break
+# print(flag)
+
+# На вход программе подается число n>1. Напишите программу, которая выводит его наименьший отличный от 1 делитель.
+# n= int(input())
+# for i in range(2,n+1):
+#     if n%i ==0:
+#         print(i)
+#         break
+
 n= int(input())
-flag = 'YES'
-num = n%10
-while n != 0:
-    if n%10 >= num:
-        num = n%10
-        n //= 10
-    else:
-        flag = 'NO'
-        break
-print(flag)
+for i in range(1,n+1):
+    if 5 <= i <=9 or 17 <= i <= 37 or 78 <= i <=87:
+        continue
+    print(i)
